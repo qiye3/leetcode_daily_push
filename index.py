@@ -133,7 +133,7 @@ def main_handler(event, context):
         f"> **难度**: {q.get('difficulty')}\n"
         f"> **链接**: [点击查看题目]({q.get('url')})\n\n"
         f"{body_md}\n\n"
-        f"—— 自动推送自腾讯云函数"
+        f"—— 自动推送自github"
     )
 
     # 发送消息
