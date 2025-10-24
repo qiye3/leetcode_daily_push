@@ -111,12 +111,6 @@ def send_robot_markdown(webhook_url: str, title: str, markdown_content: str) -> 
 
 # ---------- 主入口 ----------
 def main_handler(event, context):
-    # try:
-    #     with open("config.json", "r", encoding="utf-8") as f:
-    #         cfg = json.load(f)
-    # except Exception as e:
-    #     print("读取 config.json 失败：", e)
-    #     return {"status": "config_error"}
 
     # 从 GitHub Actions Secrets 读取
     WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
