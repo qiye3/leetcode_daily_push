@@ -1,0 +1,4 @@
+requests<3
+urllib3<2
+beautifulsoup4
+
