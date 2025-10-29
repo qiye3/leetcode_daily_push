@@ -3,7 +3,7 @@ name: LeetCode Daily Push
 on:
   workflow_dispatch:  # 支持手动触发
   schedule:
-    - cron: '0 9 * * *'  # 每天 9 点触发，可按需修改
+    - cron: '0 10 * * *'  # 每天 9 点触发，可按需修改
 
 jobs:
   push_daily:
